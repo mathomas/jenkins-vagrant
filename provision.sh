@@ -30,7 +30,12 @@ function jenkins() {
   apt-get install -y jenkins 
 }
 
+function git() {
+  apt-get install -y git
+}
+
 once prep
 once update
 once jdk
 once jenkins
+once git
