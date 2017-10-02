@@ -50,7 +50,7 @@ function docker() {
   apt-get update
   apt-get install -y --force-yes docker-ce
 
-  #usermod -a -G docker $USER
+  usermod -a -G docker jenkins
 }
 
 once prep
